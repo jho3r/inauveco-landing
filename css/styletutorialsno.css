@@ -13,6 +13,7 @@ font-family: 'Ubuntu', sans-serif; 400 700
 body {
   font-family: 'Ubuntu';
   background-color: #E7E7DE;
+  height: 134rem;
 }
 
 .btn{
@@ -49,10 +50,21 @@ body {
 iframe{
   width: 42rem;
   height: 23.8rem;
-  margin: 10rem 0;
+
+
   transform: rotate(90deg);
   position: relative;
-  right : 8rem;
+  right : 9.5rem;
+}
+
+.f1{
+  top: 10rem;
+}
+.f2{
+  top: 30rem;
+}
+.f3{
+  top: 50rem;
 }
 
 /***********FOOTER***********/
