@@ -51,6 +51,8 @@ iframe{
   height: 23.8rem;
   margin: 10rem 0;
   transform: rotate(90deg);
+  position: relative;
+  right : 5rem;
 }
 
 /***********FOOTER***********/
