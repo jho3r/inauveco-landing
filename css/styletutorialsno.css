@@ -43,13 +43,13 @@ body {
 /***********VIDEOS****************/
 
 .videos{
-  padding: 10% 0;
+  padding: 0;
 }
 
 iframe{
-  width: 44rem;
-  height: 25rem;
-  margin: 10rem 5rem;
+  width: 42rem;
+  height: 23.8rem;
+  margin: 10rem 0;
   transform: rotate(90deg);
 }
 
