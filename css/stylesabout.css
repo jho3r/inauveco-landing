@@ -142,10 +142,22 @@ footer {
     right: 2%
   }
 
+  .nosotros{
+    padding: 5rem 0;
+  }
+
   /************contactanos******************/
 
   .imgBrand{
     width: 100%;
+  }
+
+  .contacto{
+    padding: 8% 0;
+  }
+
+  .tituloContacto{
+    margin-bottom: 4rem !important;
   }
 
 }
