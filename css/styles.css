@@ -127,6 +127,11 @@ iframe{
   width: 100%;
   height: 33.2rem;
 }
+
+.hidden{
+  display: none;
+}
+
 /*************precios********************/
 .precios {
   padding: 4% 0 7%;
@@ -175,9 +180,111 @@ footer {
   padding: 3% 0;
 }
 
+/**********************************************QUERY***********************************/
+
 @media (max-width: 1028px){
+
+  /*******************************Navegacion********************************/
+  .navbar-brand {
+    font-size: 3rem !important;
+  }
+
+  .navbar-toggler{
+    font-size: 2.5rem;
+  }
+
+  .nav-link {
+    font-size: 2.5rem !important;
+    text-align: right;
+  }
+
   iframe{
     width: 100%;
     height: 24rem;
+  }
+
+  /********************************DESCARGA*******************************/
+
+  .mockup {
+    display: none;
+  }
+
+  .texto-intro{
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  h4, .btn{
+    font-size: 2.5rem !important;
+  }
+
+  h5{
+    font-size: 2rem;
+  }
+
+  .btn{
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+
+  /****************Pantalla*****************/
+
+  .imgPantalla {
+    width: 100%;
+  }
+
+  .imgPantalla2{
+    width: 50%;
+  }
+
+  /*****************HARDWARE***************/
+
+  .imgHardware {
+    width: 60%;
+    text-align: center;
+  }
+
+  .text-hardware{
+    text-align: center;
+  }
+
+  .hidden-sm{
+    display: none;
+  }
+
+  .hidden{
+    display: block;
+  }
+
+  .cont-hardware{
+    text-align: center;
+  }
+
+  /***************PRECIOS********************/
+  .card{
+    margin: 1.5rem 0;
+    border-radius: 1rem;
+    padding: 5% 10%;
+  }
+
+  h6, p, .cardP{
+    font-size: 2rem;
+  }
+
+  .suscribe{
+    text-align: left;
+  }
+
+  .nueva-linea{
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .me-2, .me-4{
+    margin-right: 0 !important;
   }
 }
