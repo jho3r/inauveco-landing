@@ -68,6 +68,8 @@ body {
 
 /***********VIDEOS****************/
 
+
+
 .videos{
   padding: 4% 0;
 }
@@ -89,6 +91,21 @@ footer {
 }
 
 @media (max-width: 1028px){
+  /*******************************Navegacion********************************/
+  .navbar-brand {
+    font-size: 3rem !important;
+  }
+
+  .navbar-toggler{
+    font-size: 2.5rem;
+  }
+
+  .nav-link {
+    font-size: 2.5rem !important;
+    text-align: right;
+  }
+
+
   iframe{
     width: 100%;
     height: 24rem;
