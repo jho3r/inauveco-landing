@@ -1,5 +1,5 @@
 $("section").hide();
-$(document).ready(function() {
+$(window).on("load", function() {
     $('.spiner').addClass("hide");
     $('.spiner').hide();
     $('section').show();
