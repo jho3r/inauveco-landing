@@ -8,6 +8,18 @@
 font-family: 'Merriweather', serif; 400 900
 font-family: 'Ubuntu', sans-serif; 400 700
 */
+.spiner{
+  height: 100%;
+  width: 100%;
+  margin: 20% 0 40%  ;
+}
+
+.spinner-border{
+  width: 6rem;
+  height: 6rem;
+}
+
+
 body {
   font-family: 'Ubuntu'
 }
@@ -178,6 +190,10 @@ iframe{
 /***********FOOTER***********/
 footer {
   padding: 3% 0;
+}
+
+.hide{
+  display: none;
 }
 
 /**********************************************QUERY***********************************/
