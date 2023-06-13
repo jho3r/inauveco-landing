@@ -1,0 +1,70 @@
+/*Colors
+#DDDDDD
+#222831
+#30475E
+#F05454
+*/
+/*FONTS
+font-family: 'Merriweather', serif; 400 900
+font-family: 'Ubuntu', sans-serif; 400 700
+*/
+
+
+body {
+  font-family: 'Ubuntu';
+  background-color: #E7E7DE;
+  height: 134rem;
+}
+
+.btn{
+  font-family: 'Merriweather';
+}
+
+.container-fluid {
+  margin-top: 0;
+}
+
+.claro {
+  background-color: #E7E7DE;
+  color: #222831;
+}
+
+.oscuro {
+  background-color: #222831;
+  color: #DDDDDD;
+}
+
+.hide{
+  position: absolute;
+  display: none;
+}
+
+
+
+/***********VIDEOS****************/
+
+.videos{
+  padding: 0;
+}
+
+iframe{
+  width: 42rem;
+  height: 23.8rem;
+
+
+  transform: rotate(90deg);
+  position: relative;
+  right : 9.5rem;
+}
+
+.f1{
+  top: 10rem;
+}
+.f2{
+  top: 30rem;
+}
+.f3{
+  top: 50rem;
+}
+
+/***********FOOTER***********/

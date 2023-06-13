@@ -95,3 +95,69 @@ body {
 footer {
   padding: 1% 0;
 }
+
+/**********************************************QUERY***********************************/
+
+@media (max-width: 1028px){
+
+  /*******************************Navegacion********************************/
+  .navbar-brand {
+    font-size: 3rem !important;
+  }
+
+  .navbar-toggler{
+    font-size: 2.5rem;
+  }
+
+  .nav-link {
+    font-size: 2.5rem !important;
+    text-align: right;
+  }
+
+  iframe{
+    width: 100%;
+    height: 24rem;
+  }
+
+  /*******************nosotros***********************/
+  h5{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 2.2rem;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  .nombre{
+    font-size: 2.8rem;
+  }
+
+  .imgProgramador{
+    width: 35%;
+    position: relative;
+    right: 2%
+  }
+
+  .nosotros{
+    padding: 5rem 0;
+  }
+
+  /************contactanos******************/
+
+  .imgBrand{
+    width: 100%;
+  }
+
+  .contacto{
+    padding: 8% 0;
+  }
+
+  .tituloContacto{
+    margin-bottom: 4rem !important;
+  }
+
+}

@@ -68,6 +68,8 @@ body {
 
 /***********VIDEOS****************/
 
+
+
 .videos{
   padding: 4% 0;
 }
@@ -78,14 +80,38 @@ iframe{
   margin-bottom: 3rem;
 }
 
+h1{
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
 /***********FOOTER***********/
 footer {
   padding: 3% 0;
 }
 
 @media (max-width: 1028px){
+  /*******************************Navegacion********************************/
+  .navbar-brand {
+    font-size: 3rem !important;
+  }
+
+  .navbar-toggler{
+    font-size: 2.5rem;
+  }
+
+  .nav-link {
+    font-size: 2.5rem !important;
+    text-align: right;
+  }
+
+
   iframe{
     width: 100%;
     height: 24rem;
+  }
+
+  h5{
+    font-size: 2rem;
   }
 }
