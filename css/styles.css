@@ -87,6 +87,7 @@ body {
 }
 
 .mockup2{
+  width: 0;
   display: none;
 }
 
