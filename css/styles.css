@@ -86,6 +86,10 @@ body {
   width: 100%;
 }
 
+.mockup2{
+  display: none;
+}
+
 .btn-success {
   color: #DDDDDD;
   background-color: #30475E;
@@ -202,21 +206,22 @@ footer {
 
   /*******************************Navegacion********************************/
   .navbar-brand {
-    font-size: 3rem !important;
+    
+  }
+
+  .nav-logo {
+    height: 60px;
   }
 
   .navbar-toggler{
-    font-size: 2.5rem;
   }
 
   .nav-link {
-    font-size: 2.5rem !important;
+    
     text-align: right;
   }
 
   iframe{
-    width: 100%;
-    height: 24rem;
   }
 
   /********************************DESCARGA*******************************/
@@ -225,26 +230,31 @@ footer {
     display: none;
   }
 
+  .mockup2{
+    display: block;
+    width: 100%;
+  }
+
   .texto-intro{
     text-align: center;
     margin-top: 2.5rem;
   }
 
   h2{
-    font-size: 3rem;
   }
 
   h4, .btn{
-    font-size: 2.5rem !important;
   }
 
   h5{
-    font-size: 2rem;
   }
 
   .btn{
-    display: block;
     margin-bottom: 1.5rem;
+  }
+
+  .button-large {
+    display: block;
   }
 
   /****************Pantalla*****************/
@@ -260,7 +270,7 @@ footer {
   /*****************HARDWARE***************/
 
   .imgHardware {
-    width: 60%;
+    width: 90%;
     text-align: center;
   }
 
@@ -288,11 +298,6 @@ footer {
   }
 
   h6, p, .cardP{
-    font-size: 2rem;
-  }
-
-  .suscribe{
-    text-align: left;
   }
 
   .nueva-linea{
